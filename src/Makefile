@@ -7,10 +7,10 @@ LDIR =../lib
 
 LIBS=-lSDL
 
-_DEPS = main.h
+_DEPS = main.h demo.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = main.o 
+_OBJ = main.o demo.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
